@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin: 0.2em 0;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+.project {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  padding: 1em;
+  max-width: 300px;
+  text-align: center;
+  flex: 1 1 calc(33% - 2em);
+}
+
+.project h2 {
+  color: #00796b;
+  margin-top: 0;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: #00796b;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.project a:hover {
+  background-color: #004d40;
+}
